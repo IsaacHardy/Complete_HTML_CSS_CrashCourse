@@ -1,4 +1,5 @@
 /**
+
  * Reset defaults
  */
 body {
@@ -56,3 +57,122 @@ footer {
   background: purple;
   color: white;
 }
+
+.hero-banner {
+  line-height: 400px;
+}
+
+.hero-banner h1 {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 72px;
+}
+
+nav > *,
+nav img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav li {
+  display: inline-block;
+}
+
+header {
+  height: 100px;
+  line-height: 100px;
+}
+
+nav ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #90172a;
+  margin-right: 20px;
+}
+
+.main {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main .container {
+  display: flex;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.variety figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer .animation {
+  text-align: center;
+}
+
+.add-sprinkles {
+  outline: none;
+  display: block;
+  border: none;
+  width: 170px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 4px;
+  line-height: 50px;
+  font-size: 18px;
+  background: #cf6480;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.add-sprinkles:hover {
+  background: #90172a;
+}
+
+.add-sprinkles:active {
+  box-shadow: inset 0 0 6px 3px #cf6480;
+}
+
+nav ul a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.doughnut {
+  position: relative;
+}
+
+.sprinkles {
+  display: none;
+  position: absolute;
+  height: 350px;
+  width: 350px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../images/sprinkles.png') no-repeat;
+}
+
+.show {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*stay*/
